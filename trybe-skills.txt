@@ -1,5 +1,7 @@
-O que eu vou aprender na Trybe:
+O que eu estou aprendendo na Trybe:
 
 - Unix
 - Bash
 - Git
+
+Em breve muito mais!
