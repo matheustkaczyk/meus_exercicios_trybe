@@ -1,0 +1,20 @@
+h1 {
+    width:"65px";
+    color: orange
+}
+ul {
+  background-color: orchid;
+}
+.lista-e-p {
+  background-color: powderblue;
+}
+h1 {
+font-family: sans-serif;
+color: darkcyan;
+text-decoration: underline;
+}
+p{
+font-weight:600;
+font-size: 3em;
+font-style: italic;
+color: darkblue;
