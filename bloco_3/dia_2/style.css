@@ -4,6 +4,7 @@ h1 {
 }
 ul {
   background-color: orchid;
+  line-height: 30px;
 }
 .lista-e-p {
   background-color: powderblue;
