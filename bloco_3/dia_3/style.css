@@ -1,32 +1,13 @@
-.super-mario{
-    width: 300px;
-    position:absolute;
-    z-index: 1;
+p, h1{
+    text-align: center;
 }
-.goomba{
-    width: 150px;
-    z-index: 2;
-    position: absolute;
-    margin-top: 390px;
-    margin-left: 170px;
+li:hover{
+    transition: all;
+    background-color: red;
 }
-.bowser{
-    width: 300px;
-    z-index: 3;
-    position:absolute;
-    margin-left: 600px;
+li:active{
+    color: green;
 }
-.baloon{
-    width: 150px;
-    z-index: 4;
-    position:absolute;
-    margin-top: px;
-    margin-left: 480px;
-}
-.word{
-    width: 100px;
-    z-index: 5;
-    position: absolute;
-    margin-left: 510px;
-    margin-top: 25px;
+ul, ol{
+    list-style: none;
 }
