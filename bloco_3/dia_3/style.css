@@ -20,12 +20,13 @@
     width: 150px;
     z-index: 4;
     position:absolute;
-    margin-left: 400px;
+    margin-top: px;
+    margin-left: 480px;
 }
 .word{
     width: 100px;
     z-index: 5;
     position: absolute;
-    margin-left: 430px;
+    margin-left: 510px;
     margin-top: 25px;
 }
