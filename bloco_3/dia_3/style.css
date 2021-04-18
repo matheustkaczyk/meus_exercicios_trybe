@@ -1,13 +1,29 @@
-p, h1{
-    text-align: center;
+div:hover {
+    border-style: outset;
+    border-color: green;
+    border-width: 5px;
 }
-li:hover{
-    transition: all;
-    background-color: red;
+div:nth-of-type(1){
+    color: blue;
+    font-family: monospace;
 }
-li:active{
+div:nth-of-type(2n){
     color: green;
+    font-family: Arial;
 }
-ul, ol{
-    list-style: none;
+div:nth-of-type(3){
+    color:purple;
+    font-family:serif;
+    font-size: 30px;
+}
+div:nth-of-type(4n){
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div:nth-of-type(5){
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div:nth-of-type(odd){
+    font-style: italic;
 }
