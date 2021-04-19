@@ -1,48 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>#GoTrybe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      .first {
+        background-color: rgb(235, 200, 84);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 200px;
+        position: absolute;
+        margin-left: 500px;
+      }
+
+      .second {
+        background-color: rgb(219, 219, 219);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+        margin-left: 300px;
+        margin-top: 50px;
+      }
+
+      .third {
+        background-color: rgb(170, 142, 106);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+      }
+      .premiacao{
+        text-align: center;
+        margin-top: 100px;
+      }
+      li{
+        display: inline-block;
+      }
+      ul.podio1{
+
+        display: inline-block;
+      }
+      ul{
+        list-style-type: none;
+        text-align: center;
+      }
+      .podio{
+        text-align: center;
+        display: inline-block;
+      }
+
+
+    </style>
   </head>
   <body>
-    <h1 class="header"><em>Combinações e Classes Descendentes</em></h1>
-    <br />
-    <h3 class="header">Top 5 frases memoráveis:</h3>
-    <ol class="lista_ordenada">
-      <li><em>Com grandes poderes vêm grandes responsabilidades.</em> - Tio Ben (Homem Aranha)</li>
-      <li><em>Houston, temos um problema.</em> - Jack Swigert</li>
-      <li><em>Sempre parece impossível até que esteja feito.</em> - Nelson Mandela</li>
-      <li><em>Parte da jornada é o fim.</em> - Tony Stark (Homem de Ferro)</li>
-      <li><em>Às vezes, o melhor que podemos fazer é começar novamente.</em> - Steve Rogers (Capitão América)</li>
-    </ol>
-    <h3 class="header">As maiores linguagens de programação:</h3>
-    <ul class="lista_n_ordenada">
-      <li class="pi3">Python</li>
-      <li class="pi3 java">Java</li>
-      <li class="pi3 java">JavaScript</li>
-      <li>C#</li>
-      <li>C / C++</li>
-    </ul>
-    <h3 class="header">Maiores aliados de uma pessoa desenvolvedora:</h3>
-    <div>
-    <ul>
-      <li>
-        <a class="stack" href="https://pt.stackoverflow.com/">StackOverflow</a>
-      </li>
-      <li>
-        <a class="w3" href="https://www.w3schools.com/">W3Schools</a>
-      </li>
-      <li>
-        <a class="mdn" href="https://developer.mozilla.org/pt-BR/">MDN Web Docs</a>
-      </li>
-      <li>
-        <a class="devdoc" href="https://devdocs.io/">DevDocs</a>
-      </li>
-      <li>
-        <a class="trybe" href="https://app.betrybe.com/">Trybe</a>
-      </li>
-    </ul>
-  </div>
+    <header>
+      <h1>Hackathon Results</h1>
+    </header>
+    <section class="podio">
+      <ul class="podio1">
+        <li class="first">1º - Equipe 1</li>
+        <li class="second">2º - Equipe 2</li>
+        <li class="third">3º - Equipe 3</li>
+      </ul>
+    </section>
+    <section class="premiacao">
+      <h3>Premiação Primeiro Lugar:</h3>
+      <ul class="item1">
+        <li>| R$ 1000,00 por integrante da equipe |</li>
+        <li>| Bootcamp de 2 meses com possibilidade de contratação |</li>
+      </ul>
+      <h3>Premiação Segundo Lugar:</h3>
+      <ul class="item2">
+        <li>| R$ 600,00 por integrante da equipe |</li>
+        <li>| Participação no processo seletivo para o Bootcamp |</li>
+      </ul>
+      <h3>Premiação Terceiro Lugar:</h3>
+      <ul class="item3">
+        <li>| R$ 300,00 por integrante da equipe |</li>
+        <li>| Participação no processo seletivo para o Bootcamp |</li>
+      </ul>
+    </section>
   </body>
 </html>
