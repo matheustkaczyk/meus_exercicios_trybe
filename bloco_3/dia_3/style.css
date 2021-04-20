@@ -1,20 +1,61 @@
 body {
     background-image: url(mostafa-ashraf-mostafa-2n-NlDEAhtk-unsplash.jpg);
     background-position: cover;
+    font-family: sans-serif;
+    font-size: medium;
 }
 .stoma1{
     width: 300px;
     height: 300px;
+    border:darkblue;
+    border-style: groove;
 }
 .stoma2{
     width: 300px;
     height: 300px;
+    border:darkblue;
+    border-style: groove;
+}
+.dcientif{
+    border:darkblue;
+    border-style: groove;
 }
 .socao{
     width: 300px;
     height: 300px;
+    margin-left: 40%;
+    border:darkblue;
+    border-style: groove;
 }
 .olhos{
-    width: 300px;
+    width: 600px;
     height: 300px;
+    border:darkblue;
+    border-style: groove;
+}
+.indice{
+    background-color: lightseagreen;
+    opacity: initial;
+    list-style: none;
+    display: inline;
+}
+.intro{
+    background-color: lightseagreen;
+    opacity: initial;
+}
+.sobre{
+    background-color: lightseagreen;
+    opacity: initial;
+}
+.curiosidades{
+    background-color: lightseagreen;
+    opacity: initial;
+}
+.visao{
+    background-color: lightseagreen;
+    opacity: initial;
+}
+.referencias{
+    background-color: lightseagreen;
+    opacity: initial;
 }
