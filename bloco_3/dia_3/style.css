@@ -1,20 +1,60 @@
 body {
     background-image: url(mostafa-ashraf-mostafa-2n-NlDEAhtk-unsplash.jpg);
     background-position: cover;
-    font-family: sans-serif;
+    font-family:sans-serif;
     font-size: medium;
+    z-index: 1;
+}
+h1, h2{
+    text-align: center;
+    text-decoration: underline;
+}
+nav.indice{
+    background-color: #10789D;
+    display: inline-block;
+    list-style: none;
+    list-style-type: none;
+    width: 100%;
+    height: 10%;
+}
+li a{
+    border:darkblue;
+    border-style:outset;
+    display: inline;
+    float: left;
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0D5974;
+    width: 47%;
 }
 .stoma1{
+    margin-left: 37%;
     width: 300px;
     height: 300px;
     border:darkblue;
     border-style: groove;
 }
 .stoma2{
+    margin-left: 37%;
     width: 300px;
     height: 300px;
     border:darkblue;
     border-style: groove;
+}
+.olhos{
+    margin-left: 27%;
+    width: 300px;
+    height: 300px;
 }
 .dcientif{
     border:darkblue;
@@ -34,28 +74,70 @@ body {
     border-style: groove;
 }
 .indice{
-    background-color: lightseagreen;
-    opacity: initial;
+    background-color: #10789D;
+
     list-style: none;
     display: inline;
 }
 .intro{
-    background-color: lightseagreen;
-    opacity: initial;
+    background-color: #10789D;
+    background-blend-mode:luminosity;
+    margin-top: 100px;
+    
+}
+aside{
+    background-color: #10789D;
 }
 .sobre{
-    background-color: lightseagreen;
-    opacity: initial;
+    background-color: #10789D;
+    text-align: center;
+}
+p{
+    background-color: #10789D;
 }
 .curiosidades{
-    background-color: lightseagreen;
-    opacity: initial;
+    background-color: #10789D;
+    
 }
 .visao{
-    background-color: lightseagreen;
+    background-color: #10789D;
     opacity: initial;
 }
 .referencias{
-    background-color: lightseagreen;
+    background-color: #10789D;
     opacity: initial;
+}
+.secdados{
+    display: inline-block;
+}
+.tdados{
+    background-color: #0D5974;
+    position: absolute;
+    left:270px;
+    bottom: -500px;
+    width: 20%;
+    border: 0;
+    margin: 0px;
+}
+.dcientif{
+    position: absolute;
+    float: right;
+    margin-top: 0px;
+    position: absolute;
+    
+}
+.pdados{
+    position: absolute;
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 290px;
+    background-color: #10789D ;
+}
+.curiosidades{
+    margin-top: 480px;
+}
+footer{
+    text-align: center;
+    background-color: #10789D;
+    padding: 30px 30px;
 }
