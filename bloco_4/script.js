@@ -16,7 +16,7 @@ let divisao = (a / b);
 let modulo = (a % b);
   console.log(modulo);
 */
-
+/*
 let numero1 = 32;
 let numero2 = 54;
 
@@ -25,3 +25,17 @@ if (numero1 > numero2){
 } else {
     console.log(numero2);
 }
+*/
+/*
+let numero1 = 50
+let numero2 = 74
+let numero3 = 78
+
+if (numero1 > numero2 && numero1 > numero3){
+    console.log(numero1)
+} else if (numero2 > numero1 && numero2 > numero3) {
+    console.log(numero2)
+} else {
+    console.log(numero3)
+}
+*/
