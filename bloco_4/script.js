@@ -39,3 +39,11 @@ if (numero1 > numero2 && numero1 > numero3){
     console.log(numero3)
 }
 */
+
+let numero = 2
+
+if (numero >= 0) {
+    console.log('Número positivo')
+} else {
+    console.log("Número negativo")
+}
