@@ -66,7 +66,8 @@ if (angulopositivo){
 } else {
   console.log("Erro!")
 }
-*/ 
+*/ 6
+/*
 let pecaXadrez = "torre";
 
 switch (pecaXadrez.toLowerCase()) {
@@ -89,3 +90,23 @@ switch (pecaXadrez.toLowerCase()) {
   console.log(" peão movimenta-se apenas uma casa para frente e somente captura outras peças na diagonal. Opcionalmente, cada peão pode avançar duas casas no seu primeiro movimento do jogo.")
     break;
 } 
+*/
+/* 7
+let nota = 30;
+
+if (nota < 0 || nota > 30){
+  console.log("Inválido!")
+} else if(nota >= 90) {
+  console.log("A")
+} else if(nota >= 80){
+  console.log("B")
+} else if(nota >= 70){
+  console.log("C")
+} else if(nota >= 60){
+  console.log("D")
+} else if (nota >= 50){
+  console.log("E")
+} else {
+  console.log("F")
+}
+*/
