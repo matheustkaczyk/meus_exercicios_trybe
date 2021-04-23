@@ -110,3 +110,27 @@ if (nota < 0 || nota > 30){
   console.log("F")
 }
 */
+/* 8
+let numero1 = 1;
+let numero2 = 3;
+let numero3 = 7;
+
+let epar = false;
+
+if (numero1 % 2 === 0 || numero2 % 2 === 0 || numero3 % 2 === 0){
+  epar = true;
+}
+console.log(epar);
+*/
+/* 8
+let numero1 = 2;
+let numero2 = 4;
+let numero3 = 7;
+
+let eimpar = false;
+
+if (numero1 % 2 !== 0 || numero2 % 2 !== 0 || numero3 % 2 !== 0){
+  eimpar = true;
+}
+console.log(eimpar);
+*/
