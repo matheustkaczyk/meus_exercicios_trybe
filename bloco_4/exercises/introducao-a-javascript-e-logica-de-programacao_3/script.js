@@ -39,7 +39,7 @@ for (let index = 0; index < n; index += 1) {
   posicao -= 1;
 }
 */
-
+/*
 let n = 11;
 let symbol = '*';
 let inputLine = '';
@@ -61,3 +61,4 @@ for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
   controlRight += 1;
   controlLeft -= 1
 };
+*/
